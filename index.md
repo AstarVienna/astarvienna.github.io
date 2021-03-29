@@ -1,3 +1,5 @@
+<img src="https://github.com/AstarVienna/astarvienna.github.io/blob/main/star_t.png" width="100" height="100">
+
 # The A* Vienna Software Team
 
 The A-star Vienna Team (short form: A*V) creates bespoke software solutions for astronimcal instrumentation projects. 
