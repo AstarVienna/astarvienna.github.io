@@ -9,3 +9,19 @@ The software we are developing will contribute to the data wrangling stack for t
 
 ### Contact
 For more information, please contact us at astar.astro@univie.ac.at
+
+### Software packages
+
+- ScopeSim
+- ScopeSim_templates
+- Instrument Reference Database
+- AnisoCADO
+- SpeXtra
+- Pyckles
+- skycalc_ipy
+
+### Packages that are no longer maintained
+
+- SimCADO
+- SpecCADO
+- SimMETIS
