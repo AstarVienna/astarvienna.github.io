@@ -12,16 +12,16 @@ For more information, please contact us at astar.astro@univie.ac.at
 
 ### Software packages
 
-- ScopeSim
-- ScopeSim_templates
-- Instrument Reference Database
-- AnisoCADO
-- SpeXtra
-- Pyckles
-- skycalc_ipy
+- [ScopeSim](https://github.com/AstarVienna/ScopeSim)
+- [ScopeSim_templates](https://github.com/AstarVienna/ScopeSim_Templates)
+- [Instrument Reference Database](https://github.com/AstarVienna/irdb)
+- [AnisoCADO](https://github.com/AstarVienna/AnisoCADO)
+- [SpeXtra](https://github.com/AstarVienna/ScopeSim)
+- [Pyckles](https://github.com/AstarVienna/Pyckles)
+- [skycalc_ipy](https://github.com/AstarVienna/skycalc_ipy)
 
 ### Packages that are no longer maintained
 
-- SimCADO
-- SpecCADO
-- SimMETIS
+- [SimCADO](https://github.com/astronomyk/SimCADO)
+- [SpecCADO](https://github.com/oczoske/SpecCADO)
+- [SimMETIS](https://github.com/astronomyk/SimMETIS)
