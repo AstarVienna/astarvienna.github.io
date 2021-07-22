@@ -16,7 +16,7 @@ For more information, please contact us at astar.astro@univie.ac.at
 - [ScopeSim_templates](https://github.com/AstarVienna/ScopeSim_Templates)
 - [Instrument Reference Database](https://github.com/AstarVienna/irdb)
 - [AnisoCADO](https://github.com/AstarVienna/AnisoCADO)
-- [SpeXtra](https://github.com/AstarVienna/ScopeSim)
+- [SpeXtra](https://github.com/miguelverdugo/speXtra)
 - [Pyckles](https://github.com/AstarVienna/Pyckles)
 - [skycalc_ipy](https://github.com/AstarVienna/skycalc_ipy)
 
