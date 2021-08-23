@@ -32,7 +32,7 @@ For more information, please contact us at astar.astro@univie.ac.at
 When referencing a package from the A-star Vienna library, please add one of the following tag lines at the beginning of the documentation:
 
 <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png" height="30"> 
-Another tool by the [A* Vienna software team][AstarV Link]
+Another tool by the [A* Vienna software team](https://astarvienna.github.io/)
 
 [AstarV Link]: https://astarvienna.github.io/
 
