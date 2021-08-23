@@ -34,8 +34,6 @@ When referencing a package from the A-star Vienna library, please add one of the
 <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png" height="30"> 
 Another tool by the [A* Vienna software team](https://astarvienna.github.io/)
 
-[AstarV Link]: https://astarvienna.github.io/
-
 #### Markdown
 ``` 
 <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png" height="30"> 
