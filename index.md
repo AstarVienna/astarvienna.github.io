@@ -1,7 +1,5 @@
 <!--- <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_t.png" height="100"> --->
 
-# The A* Vienna Software Team
-
 **The A-star Vienna Team (short form: A*V) creates bespoke software solutions for astronimcal instrumentation projects.**
 
 <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/Logos_Collage_t.png" width="700">
