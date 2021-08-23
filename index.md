@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_t.png" height="100">
+<!--- <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_t.png" height="100"> --->
 
 # The A* Vienna Software Team
 
