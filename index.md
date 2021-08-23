@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/star_t.png" height="100">
+<img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_t.png" height="100">
 
 # The A* Vienna Software Team
 
@@ -25,3 +25,26 @@ For more information, please contact us at astar.astro@univie.ac.at
 - [SimCADO](https://github.com/astronomyk/SimCADO)
 - [SpecCADO](https://github.com/oczoske/SpecCADO)
 - [SimMETIS](https://github.com/astronomyk/SimMETIS)
+
+
+### A* internal tag lines:
+
+When referencing a package from the A-star Vienna library, please add one of the following tag lines at the beginning of the documentation:
+
+<img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png" height="20"> 
+Another tool by the A* Vienna software team
+
+#### Markdown
+``` 
+<img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png" height="20"> 
+Another tool by the A* Vienna software team
+```
+
+#### ReStructured Text
+```
+|logo| Another tool by the A* Vienna software team
+
+.. |logo| image:: https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png
+   :height: 30px
+   :align: middle
+```
