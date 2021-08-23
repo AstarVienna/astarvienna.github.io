@@ -2,9 +2,12 @@
 
 # The A* Vienna Software Team
 
-The A-star Vienna Team (short form: A*V) creates bespoke software solutions for astronimcal instrumentation projects. 
+**The A-star Vienna Team (short form: A*V) creates bespoke software solutions for astronimcal instrumentation projects.**
 
-Curretnly we are involved in several data-flow projects for the MICADO and METIS consortia.
+<img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/Logos_Collage_t.png" width="700">
+
+
+Currently we are involved in several data-flow projects for the MICADO and METIS consortia.
 The software we are developing will contribute to the data wrangling stack for the European Extremely Large Telescope.
 
 ### Contact
