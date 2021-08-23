@@ -32,17 +32,17 @@ For more information, please contact us at astar.astro@univie.ac.at
 When referencing a package from the A-star Vienna library, please add one of the following tag lines at the beginning of the documentation:
 
 <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png" height="20"> 
-Another tool by the A* Vienna software team
+Another tool by the [A* Vienna software team](https://astarvienna.github.io/)
 
 #### Markdown
 ``` 
 <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png" height="20"> 
-Another tool by the A* Vienna software team
+Another tool by the [A* Vienna software team](https://astarvienna.github.io/)
 ```
 
 #### ReStructured Text
 ```
-|logo| Another tool by the A* Vienna software team
+Another tool from the `A* Vienna software team <https://astarvienna.github.io/>`_
 
 .. |logo| image:: https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png
    :height: 30px
