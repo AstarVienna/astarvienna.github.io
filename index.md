@@ -12,19 +12,19 @@ For more information, please contact us at astar.astro@univie.ac.at
 
 ### Software packages
 
-- [ScopeSim](https://github.com/AstarVienna/ScopeSim)
-- [ScopeSim_templates](https://github.com/AstarVienna/ScopeSim_Templates)
-- [Instrument Reference Database](https://github.com/AstarVienna/irdb)
-- [AnisoCADO](https://github.com/AstarVienna/AnisoCADO)
-- [SpeXtra](https://github.com/miguelverdugo/speXtra)
-- [Pyckles](https://github.com/AstarVienna/Pyckles)
-- [skycalc_ipy](https://github.com/AstarVienna/skycalc_ipy)
+- ScopeSim ([Docs](https://scopesim.readthedocs.io/en/latest/)) ([Github](https://github.com/AstarVienna/ScopeSim))
+- ScopeSim_templates ([Docs](https://scopesim-templates.readthedocs.io/en/latest/)) ([Github](https://github.com/AstarVienna/ScopeSim_Templates))
+- Instrument Reference Database ([Docs](https://irdb.readthedocs.io/en/latest/)) ([Github](https://github.com/AstarVienna/irdb))
+- AnisoCADO ([Docs](https://anisocado.readthedocs.io/en/latest/)) ([Github](https://github.com/AstarVienna/anisocado))
+- SpeXtra ([Docs](https://spextra.readthedocs.io/en/latest/)) ([Github](https://github.com/miguelverdugo/speXtra))
+- Pyckles ([Docs](https://pyckles.readthedocs.io/en/latest/)) ([Github](https://github.com/AstarVienna/Pyckles))
+- skycalc_ipy ([Docs](https://skycalc-ipy.readthedocs.io/en/latest/)) ([Github](https://github.com/AstarVienna/skycalc_ipy))
 
 ### Packages that are no longer maintained
 
-- [SimCADO](https://github.com/astronomyk/SimCADO)
-- [SpecCADO](https://github.com/oczoske/SpecCADO)
-- [SimMETIS](https://github.com/astronomyk/SimMETIS)
+- SimCADO ([Docs](https://simcado.readthedocs.io/en/latest/)) ([Github](https://github.com/astronomyk/SimCADO))
+- SpecCADO ([Examples](https://github.com/oczoske/SpecCADO/tree/master/example)) ([Github](https://github.com/oczoske/SpecCADO))
+- SimMETIS ([Docs](https://github.com/astronomyk/SimMETIS/tree/master/doc)) ([Github](https://github.com/astronomyk/SimMETIS))
 
 
 ### A* internal tag lines:
@@ -38,8 +38,10 @@ Another tool by the [A* Vienna software team][AstarV Link]
 
 #### Markdown
 ``` 
-<img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png" height="30"> 
-Another tool by the [A* Vienna software team](https://astarvienna.github.io/)
+<img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_small_t.png" height="30" align="middle"> 
+Another tool by the [A* Vienna software team][AstarV Link]
+
+[AstarV Link]: https://astarvienna.github.io/
 ```
 
 #### ReStructured Text
