@@ -27,6 +27,9 @@ For more information, please contact us at astar.astro@univie.ac.at
 - SpecCADO ([Examples](https://github.com/oczoske/SpecCADO/tree/master/example)) ([Github](https://github.com/oczoske/SpecCADO))
 - SimMETIS ([Docs](https://github.com/astronomyk/SimMETIS/tree/master/doc)) ([Github](https://github.com/astronomyk/SimMETIS))
 
+### Build Dashboard
+
+An [overview of the current status of testing and documentation](dashboard.md) for each project
 
 ### A* internal tag lines:
 
