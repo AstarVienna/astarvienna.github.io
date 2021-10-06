@@ -1,6 +1,6 @@
 <!--- <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/star_t.png" height="100"> --->
 
-**The A-star Vienna Team (short form: A*V) creates bespoke software solutions for astronimcal instrumentation projects.**
+**The A-star Vienna Team (short form: A*V) creates bespoke software solutions for astronomical instrumentation projects.**
 
 <img src="https://raw.githubusercontent.com/AstarVienna/astarvienna.github.io/main/logos/Logos_Collage_t.png" width="700">
 
@@ -24,7 +24,7 @@ For more information, please contact us at astar.astro@univie.ac.at
 ### Packages that are no longer maintained
 
 - SimCADO ([Docs](https://simcado.readthedocs.io/en/latest/)) ([Github](https://github.com/astronomyk/SimCADO))
-- SpecCADO ([Examples](https://github.com/oczoske/SpecCADO/tree/master/example)) ([Github](https://github.com/oczoske/SpecCADO))
+- SpecCADO ([User Manual](https://github.com/oczoske/SpecCADO/blob/master/User_Manual.pdf))([Examples](https://github.com/oczoske/SpecCADO/tree/master/example)) ([Github](https://github.com/oczoske/SpecCADO))
 - SimMETIS ([Docs](https://github.com/astronomyk/SimMETIS/tree/master/doc)) ([Github](https://github.com/astronomyk/SimMETIS))
 
 ### Build Dashboard
