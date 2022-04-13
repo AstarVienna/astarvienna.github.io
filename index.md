@@ -31,6 +31,9 @@ For more information, please contact us at astar.astro@univie.ac.at
 
 An [overview of the current status of testing and documentation](dashboard.md) for each project
 
+### Gallery of modern art
+[GitHub image gallery](https://github.com/AstarVienna/astarvienna.github.io/tree/main/modern_art)
+
 ### A* internal tag lines:
 
 When referencing a package from the A-star Vienna library, please add one of the following tag lines at the beginning of the documentation:
