@@ -11,6 +11,9 @@ The software we are developing will contribute to the data wrangling stack for t
 ### Contact
 For more information, please contact us at astar.astro@univie.ac.at
 
+### Important Updates
+- 2022 July: Changes to downloadable content server - [Upgrade instructions](server_upgrade_instructions.md)
+
 ### Software packages
 
 - ScopeSim ([Docs](https://scopesim.readthedocs.io/en/latest/)) ([Github](https://github.com/AstarVienna/ScopeSim))
