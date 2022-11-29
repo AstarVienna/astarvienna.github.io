@@ -37,6 +37,9 @@ An [overview of the current status of testing and documentation](dashboard.md) f
 ### Gallery of modern art
 [GitHub image gallery](https://github.com/AstarVienna/astarvienna.github.io/tree/main/modern_art)
 
+### Group ideas and philosophies
+[Just some ideas](group_ideas/coding_philosophy.md) about how the group could function effectively.
+
 ### A* internal tag lines:
 
 When referencing a package from the A-star Vienna library, please add one of the following tag lines at the beginning of the documentation:
