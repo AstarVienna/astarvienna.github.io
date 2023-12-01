@@ -37,6 +37,9 @@ An [overview of the current status of testing and documentation](dashboard.md) f
 ### Gallery of modern art
 [GitHub image gallery](https://github.com/AstarVienna/astarvienna.github.io/tree/main/modern_art)
 
+### Internal guides
+[Pyproject.toml with Poetry](howtotoml.md)
+
 ### Group ideas and philosophies
 [Just some ideas](group_ideas/coding_philosophy.md) about how the group could function effectively.
 
