@@ -1,12 +1,23 @@
-# Dashboard
+# Status of A*V packages
 
-| Package | Build | Docs |
-| --- | --- | --- |
-| ScopeSim | [![Build Status](http://github-actions.40ants.com/AstarVienna/ScopeSim/matrix.svg)](https://github.com/AstarVienna/ScopeSim/actions) | [![Documentation Status](https://readthedocs.org/projects/scopesim/badge/?version=latest)](https://scopesim.readthedocs.io/en/latest/) |
-| ScopeSim_templates | [![Build Status](http://github-actions.40ants.com/AstarVienna/ScopeSim_templates/matrix.svg)](https://github.com/AstarVienna/ScopeSim_templates/actions) | [![Documentation Status](https://readthedocs.org/projects/scopesim-templates/badge/?version=latest)](https://scopesim-templates.readthedocs.io/en/latest/) |
-| IRDB | [![Build Status](http://github-actions.40ants.com/AstarVienna/irdb/matrix.svg)](https://github.com/AstarVienna/irdb/actions) | [![Documentation Status](https://readthedocs.org/projects/irdb/badge/?version=latest)](https://irdb.readthedocs.io/en/latest/) |
-| AnisoCADO | [![Build Status](http://github-actions.40ants.com/AstarVienna/anisocado/matrix.svg)](https://github.com/AstarVienna/anisocado/actions) | [![Documentation Status](https://readthedocs.org/projects/anisocado/badge/?version=latest)](https://anisocado.readthedocs.io/en/latest/) |
-| SpeXtra | [![Build Status](http://github-actions.40ants.com/AstarVienna/speXtra/matrix.svg)](https://github.com/AstarVienna/speXtra/actions) | [![Documentation Status](https://readthedocs.org/projects/spextra/badge/?version=latest)](https://spextra.readthedocs.io/en/latest/) |
-| Pyckles | [![Build Status](http://github-actions.40ants.com/AstarVienna/Pyckles/matrix.svg)](https://github.com/AstarVienna/Pyckles/actions) | [![Documentation Status](https://readthedocs.org/projects/pyckles/badge/?version=latest)](https://pyckles.readthedocs.io/en/latest/) |
-| skycalc_ipy | [![Build Status](http://github-actions.40ants.com/AstarVienna/skycalc_ipy/matrix.svg)](https://github.com/AstarVienna/skycalc_ipy/actions) | [![Documentation Status](https://readthedocs.org/projects/skycalc-ipy/badge/?version=latest)](https://skycalc-ipy.readthedocs.io/en/latest/) |
-| HowManyPhotons | [![Build Status](http://github-actions.40ants.com/AstarVienna/HowManyBloodyPhotons/matrix.svg)](https://github.com/AstarVienna/HowManyBloodyPhotons/actions) | [![Documentation Status]()](https://github.com/AstarVienna/HowManyBloodyPhotons) |
+| Package                | Poetry   | Rel. Notes | Fix COV   | Fix RTD     | CHANGELOG | main     | Auto-PyPI | Badges   | Loggers     | Webtests    | Branching     |
+| ---------------------- | -------- | ---------- | --------- | ----------- | --------- | -------- | --------- | -------- | ----------- | ----------- | ------------- |
+| `ScopeSim`             | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![False] | ![False]  | ![True]  | ![True]     | ![True]     | ![dev_master] |
+| `ScopeSim_Templates`   | ![False] | ![True]    | ![False]  | ![False]    | ![False]  | ![False] | ![False]  | ![False] | ![False]    | ![False]    | ![dev_master] |
+| `HowManyBloodyPhotons` | ![True]  | ![True]    | ![False]  | ![unused]   | ![False]  | ![True]  | ![token]  | ![True]  | ![unused]   | ![unused]   | ![trunk]      |
+| `Pyckles`              | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![False] | ![False]  | ![False] | ![False]    | ![False]    | ![trunk]      |
+| `AnisoCADO`            | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![False] | ![False]  | ![False] | ![False]    | ![unused]   | ![trunk]      |
+| `skycalc_ipy`          | ![True]  | ![True]    | ![True]   | ![progress] | ![unused] | ![False] | ![True]   | ![True]  | ![progress] | ![progress] | ![trunk]      |
+| `tiptop-ipy`           | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![True]  | ![False]  | ![False] | ![False]    | ![False]    | ![trunk]      |
+| `astar-utils`          | ![True]  | ![True]    | ![token]  | ![unused]   | ![unused] | ![True]  | ![True]   | ![True]  | ![True]     | ![unused]   | ![trunk]      |
+| `speXtra`              | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![False] | ![token]  | ![True]  | ![unused]   | ![True]     | ![trunk]      |
+| `IRDB`                 | ![False] | ![unused]  | ![unused] | ![False]    | ![False]  | ![False] | ![unused] | ![False] | ![False]    | ![False]    | ![dev_master] |
+
+
+[True]: https://img.shields.io/badge/True-darkgreen
+[False]: https://img.shields.io/badge/False-darkred
+[progress]: https://img.shields.io/badge/in_progress-blue
+[unused]: https://img.shields.io/badge/not_used-beige
+[dev_master]: https://img.shields.io/badge/dev--master-purple
+[trunk]: https://img.shields.io/badge/trunk-teal
+[token]: https://img.shields.io/badge/chk_token-orange
