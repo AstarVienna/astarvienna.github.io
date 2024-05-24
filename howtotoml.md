@@ -173,6 +173,18 @@ The name `docs` is fairly standardized for this and also what e.g. readthedocs [
 
 The `dev` group is reserved for any dev-only dependencies that are not part of the tests, but still might be used in the dvelopment process, e.g. mypy or pylint. It should be optional, unless it's very commonly used in development, and contains only trivial packages.
 
+## poetry.lock
+
+Most projects have a `poetry.lock` file, which list the lowest version of each depency that can be used by the project. `poetry.lock` is used in the continous integration to verify that we indeed list the correct minimum dependencies. Upgrading a dependency requires updating `poetry.lock`.
+
+For example, do the following to upgrade astropy from 5.3.3 to 5.3.4:
+
+1. Change the astropy version number to `5.3.4` in `pyproject.toml`, so without the caret `^`, without committing the file. Omitting the `^` is necessary because otherwise it'll go to the latest version that matches.
+2. Run `poetry lock --no-update`. This will resolve all the dependency version constraints against each other and sync the lock file with `pyproject.toml`, without changing any other version that were defined with `^x.y`
+3. Change the astropy version number to `^5.3.4`, including the caret.
+4. Run `poetry lock --no-update` again. This will simply sync the version constraint from `pyproject.toml` to the lock file (that is, add the `^` to the lock file). You shouldn't see any other change at this point. This last step is necessary so poetry won't complain that they're out of sync (optionally run `poetry check` afterwards to confirm this).
+5. Commit both `pyproject.toml` and `poetry.lock`.
+
 ## Other tools
 
 ### Pytest
