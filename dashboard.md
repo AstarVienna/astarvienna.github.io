@@ -2,15 +2,15 @@
 
 | Package                | Poetry   | Rel. Notes | Fix COV   | Fix RTD     | CHANGELOG | main     | Auto-PyPI | Badges   | Loggers     | DevOps    | Webtests    | Branching     |
 | ---------------------- | -------- | ---------- | --------- | ----------- | --------- | -------- | --------- | -------- | ----------- | --------- | ----------- | ------------- |
-| `ScopeSim`             | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![False]  | ![True]  | ![True]     | ![main] | ![True]     | ![trunk]      |
+| `ScopeSim`             | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![False]  | ![True]  | ![True]     | ![main]   | ![True]     | ![trunk]      |
 | `ScopeSim_Templates`   | ![False] | ![True]    | ![False]  | ![False]    | ![False]  | ![True]  | ![False]  | ![False] | ![False]    | ![master] | ![False]    | ![trunk]      |
-| `HowManyBloodyPhotons` | ![True]  | ![True]    | ![False]  | ![unused]   | ![False]  | ![True]  | ![True]   | ![True]  | ![unused]   | ![poetry] | ![unused]   | ![trunk]      |
+| `HowManyBloodyPhotons` | ![True]  | ![True]    | ![False]  | ![unused]   | ![False]  | ![True]  | ![True]   | ![True]  | ![unused]   | ![main]   | ![unused]   | ![trunk]      |
 | `Pyckles`              | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![False] | ![False]  | ![False] | ![False]    | ![master] | ![False]    | ![trunk]      |
 | `AnisoCADO`            | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![False] | ![False]  | ![False] | ![False]    | ![master] | ![unused]   | ![trunk]      |
 | `skycalc_ipy`          | ![True]  | ![True]    | ![True]   | ![progress] | ![unused] | ![True]  | ![True]   | ![True]  | ![progress] | ![main]   | ![progress] | ![trunk]      |
 | `tiptop-ipy`           | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![True]  | ![False]  | ![False] | ![False]    | ![unused] | ![False]    | ![trunk]      |
-| `astar-utils`          | ![True]  | ![True]    | ![token]  | ![unused]   | ![unused] | ![True]  | ![True]   | ![True]  | ![True]     | ![poetry] | ![unused]   | ![trunk]      |
-| `speXtra`              | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![True]   | ![True]  | ![unused]   | ![main] | ![True]     | ![trunk]      |
+| `astar-utils`          | ![True]  | ![True]    | ![token]  | ![unused]   | ![unused] | ![True]  | ![True]   | ![True]  | ![True]     | ![main]   | ![unused]   | ![trunk]      |
+| `speXtra`              | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![True]   | ![True]  | ![unused]   | ![main]   | ![True]     | ![trunk]      |
 | `IRDB`                 | ![False] | ![unused]  | ![unused] | ![False]    | ![False]  | ![False] | ![unused] | ![False] | ![False]    | ![unused] | ![False]    | ![dev_master] |
 
 
