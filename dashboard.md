@@ -5,7 +5,7 @@
 | `ScopeSim`             | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![False]  | ![True]  | ![True]     | ![main]   | ![True]     | ![trunk]      |
 | `ScopeSim_Templates`   | ![False] | ![True]    | ![False]  | ![False]    | ![False]  | ![True]  | ![False]  | ![False] | ![False]    | ![master] | ![False]    | ![trunk]      |
 | `HowManyBloodyPhotons` | ![True]  | ![True]    | ![False]  | ![unused]   | ![False]  | ![True]  | ![True]   | ![True]  | ![unused]   | ![main]   | ![unused]   | ![trunk]      |
-| `Pyckles`              | ![True]  | ![True]    | ![False]  | ![False]    | ![True]   | ![True]  | ![progress] | ![True]  | ![unused]  | ![main] | ![True]     | ![trunk]      |
+| `Pyckles`              | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![True]   | ![True]  | ![unused]   | ![main]   | ![True]     | ![trunk]      |
 | `AnisoCADO`            | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![False] | ![False]  | ![False] | ![False]    | ![master] | ![unused]   | ![trunk]      |
 | `skycalc_ipy`          | ![True]  | ![True]    | ![True]   | ![progress] | ![unused] | ![True]  | ![True]   | ![True]  | ![progress] | ![main]   | ![progress] | ![trunk]      |
 | `tiptop-ipy`           | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![True]  | ![False]  | ![False] | ![False]    | ![unused] | ![False]    | ![trunk]      |
