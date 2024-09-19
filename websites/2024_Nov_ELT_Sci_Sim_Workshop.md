@@ -43,9 +43,9 @@ If you would like to apply for subsidised hotel costs the registration deadline 
 | Time | Wednesday | Thursday | Friday |
 |---|---|---|---|
 | 09:00 - 10:30 | | | |
-| 10:30 - 11:00 | | | |
+| 10:30 - 11:00 | Coffee |
 | 11:00 - 12:30 | | | |
-| 12:30 - 14:00 | | | |
+| 12:30 - 14:00 | Lunch |
 | 14:00 - 15:30 | | | |
-| 15:30 - 16:00 | | | |
+| 15:30 - 16:00 | Coffee |
 | 16:00 - 17:30 | | | |
