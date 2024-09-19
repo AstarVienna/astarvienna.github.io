@@ -44,23 +44,23 @@ body {font-family: "Lato", sans-serif}
 
     <div class="w3-row w3-padding-32">
       <h2>Goals of this Meeting</h2>
-      <div class="w3-quarter">
+      <div class="w3-quarter w3-row-padding">
         <p>Raise awareness of the main ELT science cases for the first light instruments MICADO and METIS through a series of scientific presentations (6x 1.5hr sessions @ 15+5 min presentations).</p>
       </div>
-      <div class="w3-quarter">
+      <div class="w3-quarter w3-row-padding">
         <p>Foster collaboration on science feasibility studies between consortia.</p>
       </div>
-      <div class="w3-quarter">
+      <div class="w3-quarter w3-row-padding">
         <p><span class="w3-tag w3-red">Kick-start observation simulations to enhance feasibility studies and future proposals</span> using the common observation simulator software (ScopeSim).</p>
       </div>
-      <div class="w3-quarter">
+      <div class="w3-quarter w3-row-padding">
         <p>Create a collection of “toy models” for expected ELT targets in an open-source repository for use by others in the astronomical community.</p>
       </div>
     </div>
-    
+
     <h2 class="w3-wide">Registration Form</h2>
     <p>The deadline for regular registration is the <span class="w3-tag w3-red">1<sup>st</sup> of November, 2024</span>. The meeting will be limited to a maximum of 25 participants, with everybody being given a chance to present their science case (~15+5 min).</p>
-    <button class="w3-button w3-green" style="font-size:30px" onclick="location.href='https://www.google.com/url?q=https://forms.gle/cxQDebyBrgMJKAdL7&sa=D&source=editors&ust=1726749673562964&usg=AOvVaw13PATUwGE0XxWtewQMMFo4'">REGISTER HERE</button>
+    <button class="w3-button w3-green w3-round-medium" style="font-size:30px" onclick="location.href='https://www.google.com/url?q=https://forms.gle/cxQDebyBrgMJKAdL7&sa=D&source=editors&ust=1726749673562964&usg=AOvVaw13PATUwGE0XxWtewQMMFo4'">REGISTER HERE</button>
     <p>PhDs and early Post-Docs are able to apply for subsidised accommodation. The registration deadline for <span class="w3-tag w3-red">subsidised hotels is 18<sup>th</sup> of October, 2024</span>.</p>
 
     <h2 class="w3-wide">Location</h2>
@@ -68,22 +68,21 @@ body {font-family: "Lato", sans-serif}
     <p><span class="w3-tag w3-red">Lecture Hall 27</span> (link, map)</p>
   </div>
   
-  <div class="w3-container w3-content w3-center w3-padding-64">
+  <div class="w3-black" id="schedule">
+  <div class="w3-container w3-content w3-center w3-padding-32">
     <h2 class="w3-wide">Schedule</h2>
     <p class="w3-left-align">Start: Wednesday, <span class="w3-tag w3-red">27th of Nov, 11:00</span></p>
     <p class="w3-left-align">End: Friday, <span class="w3-tag w3-red">29th of 2024, 12:30</span></p>
     <p class="w3-left-align">Optional ScopeSim Help-Desk available until 16:00 on Friday</p>
-    <table class="w3-table-all">
+    <table class="w3-table-all w3-text-black">
       <tr>
-        <td>Start</td>
-        <td>End</td>
-        <td>Wednesday</td>
-        <td>Thursday</td>
-        <td>Friday</td>
+        <th class="w3-center">Time</th>
+        <th class="w3-center">Wednesday</th>
+        <th class="w3-center">Thursday</th>
+        <th class="w3-center">Friday</th>
       </tr>
       <tr>
-        <td>09:00</td>
-        <td>10:30</td>
+        <td class="w3-center">09:00 - 10:30</td>
         <td></td>
         <td class="w3-teal w3-center">Distant Galaxies</td>
         <td class="w3-teal w3-center">Planets / HCI</td>
@@ -92,8 +91,7 @@ body {font-family: "Lato", sans-serif}
         <td class="w3-khaki w3-center" colspan="5">Coffee</td>
       </tr>
       <tr>
-        <td>11:00</td>
-        <td>12:30</td>
+        <td class="w3-center">11:00 - 12:30</td>
         <td class="w3-teal w3-center">ELT + Instrument<br>Status updates</td>
         <td class="w3-teal w3-center">Local Galaxies</td>
         <td class="w3-teal w3-center">Diverse Topics<br>(e.g. Black Holes)</td>
@@ -102,8 +100,7 @@ body {font-family: "Lato", sans-serif}
         <td class="w3-khaki w3-center" colspan="5">Lunch</td>
       </tr>
       <tr>
-        <td>14:00</td>
-        <td>15:30</td>
+        <td class="w3-center">14:00 - 15:30</td>
         <td class="w3-teal w3-center">Stars</td>
         <td class="w3-purple w3-center">ScopeSim Hackathon<br>(Extended objects)</td>
         <td class="w3-purple w3-center">ScopeSim Help-desk<br>[Optional Participation]</td>
@@ -112,8 +109,7 @@ body {font-family: "Lato", sans-serif}
         <td class="w3-khaki w3-center" colspan="5">Coffee</td>
       </tr>
       <tr>
-        <td>16:00</td>
-        <td>17:30</td>
+        <td class="w3-center">16:00 - 17:30</td>
         <td class="w3-purple w3-center">Intro ScopeSim<br>(Point Sources)</td>
         <td class="w3-purple w3-center">ScopeSim Hackathon<br>(Custom Objects)</td>
         <td></td>
@@ -128,20 +124,40 @@ body {font-family: "Lato", sans-serif}
     <ul class="w3-left-align"><li>Which ELT instruments and modes are most valuable for the science case(s)</li>
     <li>Synergies, if any, with other observatories (JWST, VLT, etc)</li></ul>
   </div>
+  </div>
 
-  <div class="w3-container w3-content w3-center w3-padding-64">
+  <div class="w3-container w3-content w3-center w3-padding-32">
     <h2 class="w3-wide">Goals of future meetings</h2>
     <p>The five annual meetings aim to highlight the science cases which can best make use of a specific benefit of ELT observations. The following meetings will be organised with an emphasis on the following themes:</p>
-    <h3>2024 : First Light</h3>
-    <p>Which science cases will make the biggest splash early on, in both a scientific and a “public outreach” sense. The so-called low-hanging fruit.</p>
-    <h3>2025 : Spatial resolution</h3>
-    <p>How will our science cases be able to profit most from the spatial resolution of a 40m mirror</p>
-    <h3>2026 : Collecting Area</h3>
-    <p>What do we expect to see at the edge of the sensitivity limits of the ELT? How will the ELT be able to improve upon the success of JWST in this regime?</p>
-    <h3>2027 : High Contrast</h3>
-    <p>Both first light instruments include various coronagraphic modes. What do we expect to be able to discover at single digit lambda/D distances with the ELT</p>
-    <h3>2028 : Astrometry</h3>
-    <p>Sub-milliarcseond astrometry will be part of everyday operations at the ELT. How can we use this capability to enhance our knowledge of the “moving” universe?</p>
+    <div class="w3-row w3-padding-16">
+      <div class="w3-third w3-row-padding">
+        <h3>2024</h3>
+        <h4>First Light</h4>
+        <p>Which science cases will make the biggest splash early on, in both a scientific and a “public outreach” sense. The so-called low-hanging fruit.</p>
+      </div>
+      <div class="w3-third w3-row-padding">
+        <h3>2025</h3>
+        <h4>Spatial resolution</h4>
+        <p>How will our science cases be able to profit most from the spatial resolution of a 40&nbsp;m mirror.</p>
+      </div>
+      <div class="w3-third w3-row-padding">
+        <h3>2026</h3>
+        <h4>Collecting Area</h4>
+        <p>What do we expect to see at the edge of the sensitivity limits of the ELT? How will the ELT be able to improve upon the success of JWST in this regime?</p>
+      </div>
+    </div>
+    <div class="w3-row w3-padding-16">
+      <div class="w3-third w3-row-padding">
+        <h3>2027</h3>
+        <h4>High Contrast</h4>
+        <p>Both first light instruments include various coronagraphic modes. What do we expect to be able to discover at single digit lambda/D distances with the ELT.</p>
+      </div>
+      <div class="w3-third w3-row-padding">
+        <h3>2028</h3>
+        <h4>Astrometry</h4>
+        <p>Sub-milliarcseond astrometry will be part of everyday operations at the ELT. How can we use this capability to enhance our knowledge of the “moving” universe?</p>
+      </div>
+    </div>
   </div>
 
   <!-- The Contact Section -->
