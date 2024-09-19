@@ -1,4 +1,4 @@
-<img src="https://cdn.eso.org/images/thumb300y/potw2336a.jpg" width="800">
+<img src="ELT_sun.png" width="800">
 
 # ELT Science + Simulations Workshop #1
 # “First-Light”
