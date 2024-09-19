@@ -1,8 +1,7 @@
 <img src="ELT_sun.png" width="800">
 
-# ELT Science + Simulations Workshop #1
-# “First-Light”
-## Vienna University, Nov 27-29
+# ELT Science + Simulations Workshop #1 : “First-Light”
+### Vienna University, Nov 27-29
 A hybrid meeting for kick-starting feasibility studies of the main ELT science cases in preparation for first-light
 
 ## Why another ELT meeting?
@@ -39,4 +38,14 @@ If you would like to apply for subsidised hotel costs the registration deadline 
 
 [Registration Form can be found here](https://forms.gle/cxQDebyBrgMJKAdL7)
 
+## Agenda
 
+| Time | Wednesday | Thursday | Friday |
+|---|---|---|---|
+| 09:00 - 10:30 | | | |
+| 10:30 - 11:00 | | | |
+| 11:00 - 12:30 | | | |
+| 12:30 - 14:00 | | | |
+| 14:00 - 15:30 | | | |
+| 15:30 - 16:00 | | | |
+| 16:00 - 17:30 | | | |
