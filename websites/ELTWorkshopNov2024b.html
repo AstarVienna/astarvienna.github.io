@@ -4,27 +4,21 @@
 <title>First Light</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/schedule.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
-
-</style>
 </head>
 <body>
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px">
   <div class="w3-display-container w3-center">
     <img src="ELT_sun.png" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h1 class="w3-wide", style="font-size:60px; text-shadow: 4px 4px 6px #000000;"><b>“First-Light”</b></h1>
-      <p><b>Vienna ELT Science + Simulations Workshop #1</b></p>
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-16 w3-mobile">
+      <h1 class="w3-wide", style="font-size:54px; text-shadow: 4px 4px 6px #000000;"><b>“First-Light”</b></h1>
+      <p><b>Vienna ELT Science&nbsp;+&nbsp;Simulations Workshop&nbsp;#1</b></p>
     </div>
   </div>
 
-  <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     <h1 class="w3-wide">Vienna University, Nov. 27-29, 2024</h1>
     <p class="w3-opacity"><i>A hybrid meeting for kick-starting observation time proposals<br>for the main ELT science cases in preparation for first-light</i></p>
@@ -51,21 +45,25 @@ body {font-family: "Lato", sans-serif}
         <p>Foster collaboration on science feasibility studies between consortia.</p>
       </div>
       <div class="w3-quarter w3-row-padding">
-        <p><span class="w3-tag w3-red">Kick-start observation simulations to enhance feasibility studies and future proposals</span> using the common observation simulator software (ScopeSim).</p>
+        <p><span class="w3-tag w3-red">Kick-start observation simulations to enhance feasibility studies and future proposals</span> using the common observation simulator software (<a class="w3-text-blue" href="https://scopesim.readthedocs.io/en/stable/">ScopeSim</a>).</p>
       </div>
       <div class="w3-quarter w3-row-padding">
         <p>Create a collection of “toy models” for expected ELT targets in an open-source repository for use by others in the astronomical community.</p>
       </div>
     </div>
 
-    <h2 class="w3-wide">Registration Form</h2>
-    <p>The deadline for regular registration is the <span class="w3-tag w3-red">1<sup>st</sup> of November, 2024</span>. The meeting will be limited to a maximum of 25 participants, with everybody being given a chance to present their science case (~15+5 min).</p>
+    <h2 class="w3-wide">Registration</h2>
+    <p>The deadline for regular registration is the <span class="w3-tag w3-red w3-large">1<sup>st</sup> of November, 2024</span>. The meeting will be limited to a maximum of 25 participants, with everybody being given a chance to present their science case (~15+5 min).</p>
     <button class="w3-button w3-green w3-round-medium" style="font-size:30px" onclick="location.href='https://www.google.com/url?q=https://forms.gle/cxQDebyBrgMJKAdL7&sa=D&source=editors&ust=1726749673562964&usg=AOvVaw13PATUwGE0XxWtewQMMFo4'">REGISTER HERE</button>
     <p>PhDs and early Post-Docs are able to apply for subsidised accommodation. The registration deadline for <span class="w3-tag w3-red">subsidised hotels is 18<sup>th</sup> of October, 2024</span>.</p>
 
     <h2 class="w3-wide">Location</h2>
-    <p>Main Building of the University of Vienna (google maps)</p>
-    <p><span class="w3-tag w3-red">Lecture Hall 27</span> (link, map)</p>
+    <p>Main Building of the University of Vienna, <span class="w3-tag w3-red w3-large">Lecture Hall 27</span></p>
+    <p>
+      <button class="w3-button w3-blue w3-round-medium" style="margin: 0px 15px" onclick="location.href='https://event.univie.ac.at/en/venue-management/locations-and-rooms/main-building-of-the-university-of-vienna/lecture-halls/hoersaal-27-lecture-hall/'">link to room</button>
+      <button class="w3-button w3-blue w3-round-medium" style="margin: 0px 15px" onclick="location.href='https://event.univie.ac.at/fileadmin/user_upload/d_event/Dokumente/Raummanagement/PLAENE_NEU/Plaene_Hauptgebaeude/Gebaeudeplan/univie_Lageplaene_Hauptgebaeude_2019.pdf'">building floorplan</button>
+    </p>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.0104527152153!2d16.358380986014478!3d48.21318548791608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07bdebd3d9dd%3A0xd7f665432f73f3c4!2sUniversity%20of%20Vienna!5e1!3m2!1sen!2sat!4v1727044069211!5m2!1sen!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
   </div>
   
   <div class="w3-black" id="schedule">
@@ -74,55 +72,124 @@ body {font-family: "Lato", sans-serif}
     <p class="w3-left-align">Start: Wednesday, <span class="w3-tag w3-red">27th of Nov, 11:00</span></p>
     <p class="w3-left-align">End: Friday, <span class="w3-tag w3-red">29th of 2024, 12:30</span></p>
     <p class="w3-left-align">Optional ScopeSim Help-Desk available until 16:00 on Friday</p>
-    <table class="w3-table-all w3-text-black">
-      <tr>
-        <th class="w3-center">Time</th>
-        <th class="w3-center">Wednesday</th>
-        <th class="w3-center">Thursday</th>
-        <th class="w3-center">Friday</th>
-      </tr>
-      <tr>
-        <td class="w3-center">09:00 - 10:30</td>
-        <td></td>
-        <td class="w3-teal w3-center">Distant Galaxies</td>
-        <td class="w3-teal w3-center">Planets / HCI</td>
-      </tr>
-      <tr>
-        <td class="w3-khaki w3-center" colspan="5">Coffee</td>
-      </tr>
-      <tr>
-        <td class="w3-center">11:00 - 12:30</td>
-        <td class="w3-teal w3-center">ELT + Instrument<br>Status updates</td>
-        <td class="w3-teal w3-center">Local Galaxies</td>
-        <td class="w3-teal w3-center">Diverse Topics<br>(e.g. Black Holes)</td>
-      </tr>
-      <tr>
-        <td class="w3-khaki w3-center" colspan="5">Lunch</td>
-      </tr>
-      <tr>
-        <td class="w3-center">14:00 - 15:30</td>
-        <td class="w3-teal w3-center">Stars</td>
-        <td class="w3-purple w3-center">ScopeSim Hackathon<br>(Extended objects)</td>
-        <td class="w3-purple w3-center">ScopeSim Help-desk<br>[Optional Participation]</td>
-      </tr>
-      <tr>
-        <td class="w3-khaki w3-center" colspan="5">Coffee</td>
-      </tr>
-      <tr>
-        <td class="w3-center">16:00 - 17:30</td>
-        <td class="w3-purple w3-center">Intro ScopeSim<br>(Point Sources)</td>
-        <td class="w3-purple w3-center">ScopeSim Hackathon<br>(Custom Objects)</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td class="w3-khaki w3-center" colspan="5">Conference Dinner</td>
-      </tr>
-    </table>
+
+    <div class="schedule w3-left-align">
+      <span class="time-slot" style="grid-row: time-0900;">09:00</span>
+      <span class="time-slot" style="grid-row: time-1030;">10:30</span>
+      <span class="time-slot" style="grid-row: time-1100;">11:00</span>
+      <span class="time-slot" style="grid-row: time-1230;">12:30</span>
+      <span class="time-slot" style="grid-row: time-1400;">14:00</span>
+      <span class="time-slot" style="grid-row: time-1530;">15:30</span>
+      <span class="time-slot" style="grid-row: time-1600;">16:00</span>
+      <span class="time-slot" style="grid-row: time-1730;">17:30</span>
+    
+      <h3 class="day-slot" style="grid-column: day-1; grid-row: days;">Wednesday</h3>
+      <div class="session topic-misc" style="grid-column: day-1; grid-row: time-1100 / time-1230;">
+        <h4 class="session-title"><a href="#">ELT + Instrument</a></h4>
+        <span class="session-subtitle">Status updates</span>
+        <span class="session-time">11:00 - 12:30</span>
+        <span class="session-presenter">Presenter</span>
+      </div>
+    
+      <div class="session day-all" style="grid-column: day-1-start / day-3-end; grid-row: time-1230 / time-1400;">
+        <h4 class="session-title">Lunch</h4>
+      </div>
+    
+      <div class="session topic-science" style="grid-column: day-1-start; grid-row: time-1400 / time-1530;">
+        <h4 class="session-title"><a href="#">Stars</a></h4>
+        <span class="session-time">14:00 - 15:30</span>
+        <span class="session-presenter">Presenter</span>
+      </div>
+      
+      <div class="session day-all" style="grid-column: day-1-start / day-2-end; grid-row: time-1530 / time-1600;">
+        <h4 class="session-title">Coffee break</h4>
+      </div>
+    
+      <div class="session topic-scopesim" style="grid-column: day-1-start; grid-row: time-1600 / time-1730;">
+        <h4 class="session-title"><a href="#">Intro ScopeSim</a></h4>
+        <span class="session-subtitle">Point Sources</span>
+        <span class="session-time">16:00 - 17:30</span>
+        <span class="session-presenter">Presenter</span>
+      </div>
+    
+      <h3 class="day-slot" style="grid-column: day-2; grid-row: days;">Thursday</h3>
+      <div class="session topic-science" style="grid-column: day-2-start; grid-row: time-0900 / time-1030;">
+        <h4 class="session-title"><a href="#">Distant Galaxies</a></h3>
+        <span class="session-time">09:00 - 10:30</span>
+        <span class="session-presenter">Presenter</span>
+      </div>
+            
+      <div class="session day-all" style="grid-column: day-2-start / day-3-end; grid-row: time-1030 / time-1100;">
+        <h4 class="session-title">Coffee break</h4>
+      </div>
+    
+      <div class="session topic-science" style="grid-column: day-2-start; grid-row: time-1100 / time-1230;">
+        <h4 class="session-title"><a href="#">Local Galaxies</a></h3>
+        <span class="session-time">11:00 - 12:30</span>
+        <span class="session-presenter">Presenter</span>
+      </div>
+    
+      <div class="session day-hidden">
+        <h4 class="session-title">Lunch</h4>
+      </div>
+    
+      <div class="session topic-scopesim" style="grid-column: day-2-start; grid-row: time-1400 / time-1530;">
+        <h4 class="session-title"><a href="#">ScopeSim Hackathon</a></h3>
+        <span class="session-subtitle">Extended objects</span>
+        <span class="session-time">14:00 - 15:30</span>
+        <span class="session-presenter">Presenter</span>
+      </div>
+    
+      <div class="session day-hidden">
+        <h4 class="session-title">Coffee break</h4>
+      </div>
+    
+      <div class="session topic-scopesim" style="grid-column: day-2-start; grid-row: time-1600 / time-1730;">
+        <h4 class="session-title"><a href="#">ScopeSim Hackathon</a></h3>
+        <span class="session-subtitle">Custom Objects</span>
+        <span class="session-time">16:00 - 17:30</span>
+        <span class="session-presenter">Presenter</span>
+      </div>
+    
+      <div class="session topic-misc" style="grid-column: day-2-start; grid-row: time-1730 / time-1800;">
+        <h4 class="session-title">Conference Dinner</h4>
+      </div>
+    
+      <h3 class="day-slot" style="grid-column: day-3; grid-row: days;">Friday</h3>
+      <div class="session topic-science" style="grid-column: day-3-start; grid-row: time-0900 / time-1030;">
+        <h4 class="session-title"><a href="#">Planets / HCI</a></h3>
+        <span class="session-time">09:00 - 10:30</span>
+        <span class="session-presenter">Presenter</span>
+      </div>
+    
+      <div class="session day-hidden">
+        <h4 class="session-title">Coffee break</h4>
+      </div>
+    
+      <div class="session topic-science" style="grid-column: day-3-start; grid-row: time-1100 / time-1230;">
+        <h4 class="session-title"><a href="#">Diverse Topics</a></h3>
+        <span class="session-subtitle">e.g. Black Holes</span>
+        <span class="session-time">11:00 - 12:30</span>
+        <span class="session-presenter">Presenter</span>
+      </div>
+    
+      <div class="session day-hidden">
+        <h4 class="session-title">Lunch</h4>
+      </div>
+    
+      <div class="session topic-misc" style="grid-column: day-3-start; grid-row: time-1400 / time-1630;">
+        <h4 class="session-title"><a href="#">ScopeSim Help-desk</a></h3>
+        <span class="session-subtitle">[Optional Participation]</span>
+        <span class="session-time">14:00 - 16:30</span>
+      </div>
+    </div>
     
     <p class="w3-left-align">Individual presentations will follow a 15+5 min format.<br>
     Presenters are encouraged to additionally address the  <span class="w3-tag w3-red">following topics</span> during their talk:</p>
-    <ul class="w3-left-align"><li>Which ELT instruments and modes are most valuable for the science case(s)</li>
-    <li>Synergies, if any, with other observatories (JWST, VLT, etc)</li></ul>
+    <ul class="w3-left-align">
+      <li class="w3-large">Which ELT instruments and modes are most valuable for the science case(s)?</li>
+      <li class="w3-large">Synergies, if any, with other observatories (JWST, VLT, etc).</li>
+    </ul>
   </div>
   </div>
 
@@ -162,18 +229,19 @@ body {font-family: "Lato", sans-serif}
 
   <!-- The Contact Section -->
   <div class="w3-black" id="contact">
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>If you have any questions regarding the meeting, please reach out: Kieran Leschinski</i></p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Vienna, Austria<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: [first-name].[last-name]@univie.ac.at<br>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <h2 class="w3-wide w3-center">CONTACT</h2>
+      <p class="w3-opacity w3-center"><i>If you have any questions regarding the meeting, please reach out:</i></p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-col m9 w3-large w3-margin-bottom">
+          <i class="fa fa-address-card" style="width:30px"></i> <a href="https://ufind.univie.ac.at/en/person.html?id=51531" target="_blank">Kieran Leschinski</a><br>
+          <i class="fa fa-map-marker" style="width:30px"></i> <a href="https://astro.univie.ac.at/en/" target="_blank">Department of Astrophysics, University of Vienna, Austria<br>
+          <i class="fa fa-envelope" style="width:30px"> </i> <a href="mailto:&quot;Kieran Leschinski&quot;&lt;kieran.leschinski@univie.ac.at&gt;">kieran.leschinski@univie.ac.at</a><br>
+        </div>
       </div>
     </div>
   </div>
-  </div>
-  
+
 <!-- End Page Content -->
 </div>
 </body>
