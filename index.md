@@ -35,11 +35,13 @@ For more information, please contact us at astar.astro@univie.ac.at
 An [overview of the current status of testing and documentation](dashboard.md) for each project
 
 ### Gallery of modern art
+
 [GitHub image gallery](https://github.com/AstarVienna/astarvienna.github.io/tree/main/modern_art)
 
 ### Internal guides
-[Pyproject.toml with Poetry](howtotoml.md)
-[How to release our packages](howtorelease.md)
+
+- [Pyproject.toml with Poetry](howtotoml.md)
+- [How to release our packages](howtorelease.md)
 
 ### Group ideas and philosophies
 [Just some ideas](group_ideas/coding_philosophy.md) about how the group could function effectively.
