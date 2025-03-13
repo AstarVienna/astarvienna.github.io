@@ -39,6 +39,7 @@ An [overview of the current status of testing and documentation](dashboard.md) f
 
 ### Internal guides
 [Pyproject.toml with Poetry](howtotoml.md)
+[How to release our packages](howtorelease.md)
 
 ### Group ideas and philosophies
 [Just some ideas](group_ideas/coding_philosophy.md) about how the group could function effectively.
