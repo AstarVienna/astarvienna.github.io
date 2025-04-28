@@ -4,7 +4,7 @@
 | ---------------------- | -------- | ---------- | --------- | ----------- | --------- | -------- | --------- | -------- | ----------- | ----------- | ------------- |
 | `ScopeSim`             | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![False]  | ![True]  | ![True]     | ![True]     | ![trunk]      |
 | `ScopeSim_Templates`   | ![False] | ![True]    | ![False]  | ![False]    | ![False]  | ![True]  | ![False]  | ![False] | ![False]    | ![False]    | ![trunk]      |
-| `HowManyBloodyPhotons` | ![True]  | ![True]    | ![False]  | ![unused]   | ![False]  | ![True]  | ![True]   | ![True]  | ![unused]   | ![unused]   | ![trunk]      |
+| `HowManyBloodyPhotons` | ![True]  | ![True]    | ![False]  | ![unused]   | ![unused] | ![True]  | ![True]   | ![True]  | ![unused]   | ![True]     | ![trunk]      |
 | `Pyckles`              | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![True]   | ![True]  | ![unused]   | ![True]     | ![trunk]      |
 | `AnisoCADO`            | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![False] | ![False]  | ![False] | ![False]    | ![unused]   | ![trunk]      |
 | `skycalc_ipy`          | ![True]  | ![True]    | ![True]   | ![progress] | ![unused] | ![True]  | ![True]   | ![True]  | ![progress] | ![progress] | ![trunk]      |
