@@ -8,23 +8,26 @@
 <link rel="stylesheet" href="css/schedule.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <style>
-    table {
-      border-collapse: collapse;
-      font-size: 12px;
-    }
-    th, td {
-      border: 1px solid #999;
-      padding: 5px;
-      text-align: center;
-    }
-    .workshop { background-color: #d9ead3; }
-    .scopeSim { background-color: #f4cccc; }
-    .coffeeLunch { background-color: #fff2cc; }
-    .conferenceDinner { background-color: #c9daf8; }
-    .micado { background-color: #d9d2e9; }
-    .micadoDinner { background-color: #ead1dc; }
-  </style>
+<style>
+  table {
+    border-collapse: collapse;
+    font-size: 12px;
+    width: 100%; /* Stretch to fit the container */
+    margin: 0 auto; /* Center if needed */
+  }
+  th, td {
+    border: 1px solid #999;
+    padding: 5px;
+    text-align: center;
+  }
+  .nix { background-color: #000000;  color: #ffffff; }
+  .workshop { background-color: #d9ead3; color: #000000; }
+  .scopeSim { background-color: #f4cccc; color: #000000; }
+  .coffeeLunch { background-color: #fff2cc; color: #000000; height: 60px; vertical-align: middle; }
+  .conferenceDinner {background-color: #c9daf8; color: #000000; height: 60px; vertical-align: middle; }
+
+</style>
+
 
 </head>
 <body>
@@ -33,7 +36,7 @@
   <div class="w3-display-container w3-center">
     <img src="images/ELT_sun.png" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-16 w3-mobile">
-      <h1 class="w3-wide", style="font-size: calc(24px + 3.0  vw); font-weight: bold; text-shadow: 4px 4px 6px #000000;">“Spatial resolution”</h1>
+      <h1 class="w3-wide", style="font-size: calc(24px + 3.0vw); font-weight: bold; text-shadow: 4px 4px 6px #000000;">“Spatial resolution”</h1>
       <p style="font-size: calc(10px + 1vw); font-weight: bold; text-shadow: 2px 2px 4px #000000;">Vienna ELT Science&nbsp;+&nbsp;Simulations Workshop&nbsp;#2</p>
     </div>
   </div>
@@ -59,7 +62,27 @@
     <h2 class="w3-wide">Meeting format</h2>
     <p class="w3-justify">This three-day hybrid meeting aims to transform the numerous discussions on first-light ELT science topics into simulated observations that can be used to justify observing time in the earliest stages of ELT.</p>
     <p class="w3-justify">The meeting will complement traditional <span class="w3-tag w3-red">scientific presentations</span> in the mornings with an observation <span class="w3-tag w3-red">simulation hackathon</span> in the afternoons.</p>
+  </div>
 
+  <!-- Speakers Section: full-width black background with centered content -->
+  <div class="w3-black" id="speakers">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px; margin: auto;">
+      <h2 class="w3-wide w3-center">Keynote speakers</h2>
+      <div class="w3-left-align w3-large">
+        <ul>
+          <li class="w3-padding"><strong>ESO</strong>: TBD</li>
+          <li class="w3-padding"><strong>MICADO</strong>: TBD</li>
+          <li class="w3-padding"><strong>METIS</strong>: TBD</li>
+          <li class="w3-padding"><strong>HARMONI</strong>: TBD</li>
+          <li class="w3-padding"><strong>MOSAIC</strong>: TBD</li>
+          <li class="w3-padding"><strong>ANDES</strong>: TBD</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
     <div class="w3-row w3-padding-32">
       <h2 class="w3-wide">Goals of this Meeting</h2>
       <div class="w3-quarter w3-row-padding">
@@ -75,65 +98,71 @@
         <p>Create a collection of “toy models” for expected ELT targets in an open-source repository for use by others in the astronomical community.</p>
       </div>
     </div>
-
-    <h2 class="w3-wide">Registration</h2>
-    <p>The deadline for regular registration is the <span class="w3-tag w3-red w3-large">15<sup>st</sup> of August, 2025</span>.</p>
-    <p>The meeting will be limited to a maximum of 40 participants.</p>
-    <button class="w3-button w3-green w3-round-medium" style="font-size:30px"
-            onclick="javascript:window.open('https://forms.gle/Ui8Gn9GVZwP4K8bNA', '_blank')">REGISTER HERE</button>
-
-    <h2 class="w3-wide">Location</h2>
-    <p>The Observatory of the University of Vienna, <span class="w3-tag w3-red w3-large">Lecture Hall</span></p>
-    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.9916168914247!2d16.33158861847558!3d48.23167235293068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07d60b69ca65%3A0x5bf947f054bdaadf!2sUniversit%C3%A4t%20Wien%20-%20Institut%20f%C3%BCr%20Astronomie!5e1!3m2!1sde!2shr!4v1750456719056!5m2!1sde!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
   </div>
+
+  <div class="w3-black w3-center" id="register">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px; margin: auto;">
+      <h2 class="w3-wide">Registration</h2>
+      <p>The deadline for regular registration is the <span class="w3-tag w3-red w3-large">15<sup>st</sup> of August, 2025</span>.</p>
+      <p>The meeting will be limited to a maximum of 40 participants.</p>
+      <button class="w3-button w3-green w3-round-medium" style="font-size:30px"
+              onclick="javascript:window.open('https://forms.gle/Ui8Gn9GVZwP4K8bNA', '_blank')">REGISTER HERE</button>
+    </div>
+  </div>
+
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+    <div class="w3-row w3-padding-32">
+
+      <h2 class="w3-wide">Location</h2>
+      <p>The Observatory of the University of Vienna, <span class="w3-tag w3-red w3-large">Lecture Hall</span></p>
+      <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.9916168914247!2d16.33158861847558!3d48.23167235293068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07d60b69ca65%3A0x5bf947f054bdaadf!2sUniversit%C3%A4t%20Wien%20-%20Institut%20f%C3%BCr%20Astronomie!5e1!3m2!1sde!2shr!4v1750456719056!5m2!1sde!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+  </div>
+
   
   <div class="w3-black" id="schedule">
     <div class="w3-container w3-content w3-center w3-padding-32">
       <h2 class="w3-wide">Schedule</h2>
 
+      <p class="w3-left-align">Individual presentations will follow a 15+5 min format.<br>
+      Presenters are encouraged to additionally address the  <span class="w3-tag w3-red">following topics</span> during their talk:</p>
+      <ul class="w3-left-align">
+        <li class="w3-large">Which ELT instruments and modes are most valuable for the science case(s)?</li>
+        <li class="w3-large">Synergies, if any, with other observatories (JWST, VLT, etc).</li>
+      </ul>
+
       <table>
         <thead>
           <tr>
             <th>Time</th>
-            <th>Monday<br>HS</th>
-            <th>Workshop<br>SE1</th>
-            <th>SE2</th>
-            <th>Tuesday<br>HS</th>
-            <th>Workshop<br>SE1</th>
-            <th>SE2</th>
-            <th>Wednesday<br>HS</th>
-            <th>MICADO<br>SE1</th>
-            <th>Workshop<br>SE2</th>
+            <th>Monday, 22nd</th>
+            <th>Tuesday, 23rd</th>
+            <th>Wednesday, 24th</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td>Time</td><td>Monday</td><td>Tuesday</td><td>Wednesday</td></tr>
-          <tr><td>09:00</td><td></td><td></td><td></td></tr>
-          <tr><td>09:20</td><td></td><td></td><td></td></tr>
-          <tr><td>09:40</td><td></td><td></td><td></td></tr>
-          <tr><td>10:00</td><td></td><td></td><td></td></tr>
-          <tr><td>10:20</td><td></td><td></td><td></td></tr>
-          <tr><td>10:40</td><td></td><td></td><td></td></tr>
-          <tr><td>11:00</td><td></td><td></td><td></td></tr>
-          <tr><td>11:20</td><td></td><td></td><td></td></tr>
-          <tr><td>11:40</td><td></td><td></td><td></td></tr>
-          <tr><td>12:00</td><td></td><td></td><td></td></tr>
-          <tr><td>12:20</td><td></td><td></td><td></td></tr>
-          <tr><td>12:40</td><td></td><td></td><td></td></tr>
-          <tr><td>13:00</td><td></td><td></td><td></td></tr>
-          <tr><td>13:20</td><td></td><td></td><td></td></tr>
-          <tr><td>13:40</td><td></td><td></td><td></td></tr>
-          <tr><td>14:00</td><td></td><td></td><td></td></tr>
-          <tr><td>14:20</td><td></td><td></td><td></td></tr>
-          <tr><td>14:40</td><td></td><td></td><td></td></tr>
-          <tr><td>15:00</td><td></td><td></td><td></td></tr>
-          <tr><td>15:20</td><td></td><td></td><td></td></tr>
-          <tr><td>15:40</td><td></td><td></td><td></td></tr>
-          <tr><td>16:00</td><td></td><td></td><td></td></tr>
-          <tr><td>16:20</td><td></td><td></td><td></td></tr>
-          <tr><td>16:40</td><td></td><td></td><td></td></tr>
-          <tr><td>17:00</td><td></td><td></td><td></td></tr>
+          <tr class="workshop"><td class="nix">09:00</td><td class="nix"></td><td>Pres 2-1</td><td>Pres 3-1</td></tr>
+          <tr class="workshop"><td class="nix">09:20</td><td class="nix"></td><td>Pres 2-2</td><td>Pres 3-2</td></tr>
+          <tr class="workshop"><td class="nix">09:40</td><td class="nix"></td><td>Pres 2-3</td><td>Pres 3-3</td></tr>
+          <tr class="workshop"><td class="nix">10:00</td><td class="nix"></td><td>Pres 2-4</td><td>Pres 3-4</td></tr>
+          <tr class="coffeeLunch"><td class="nix">10:20</td><td>Coffee</td><td>Coffee</td><td>Coffee</td></tr>
+          <tr class="workshop"><td class="nix">11:00</td><td>Pres 1-1</td><td>Pres 2-5</td><td>Pres 3-5</td></tr>
+          <tr class="workshop"><td class="nix">11:20</td><td>Pres 1-2</td><td>Pres 2-6</td><td>Pres 3-6</td></tr>
+          <tr class="workshop"><td class="nix">11:40</td><td>Pres 1-3</td><td>Pres 2-7</td><td>Pres 3-7</td></tr>
+          <tr class="workshop"><td class="nix">12:00</td><td>Pres 1-4</td><td>Pres 2-8</td><td>Pres 3-8</td></tr>
+          <tr class="coffeeLunch"><td class="nix">12:20</td><td>Lunch</td><td>Lunch</td><td>Lunch</td></tr>
+          <tr class="scopeSim"><td class="nix">14:00</td><td class="workshop">Pres 1-5</td><td>ScopeSim Hackathon</td><td>ScopeSim Hackathon</td></tr>
+          <tr class="scopeSim"><td class="nix">14:20</td><td class="workshop">Pres 1-6</td><td>Part 1</td><td>Part 3</td></tr>
+          <tr class="scopeSim"><td class="nix">14:40</td><td class="workshop">Pres 1-7</td><td></td><td></td></tr>
+          <tr class="scopeSim"><td class="nix">15:00</td><td class="workshop">Pres 1-8</td><td></td><td></td></tr>
+          <tr class="coffeeLunch"><td class="nix">15:20</td><td>Coffee</td><td>Coffee</td><td>Coffee</td></tr>
+          <tr class="scopeSim"><td class="nix">16:00</td><td>ScopeSim Intro</td><td>ScopeSim Hackathon</td><td>ScopeSim Hackathon</td></tr>
+          <tr class="scopeSim"><td class="nix">16:20</td><td>(Beginner/Advanced)</td><td>Part 2</td><td>Part 4 (Optional)</td></tr>
+          <tr class="scopeSim"><td class="nix">16:40</td><td></td><td></td><td></td></tr>
+          <tr class="scopeSim"><td class="nix">17:00</td><td></td><td></td><td></td></tr>
           <tr><td>17:20</td><td></td><td></td><td></td></tr>
+          <tr><td>19:00</td><td class="conferenceDinner">Conference Dinner</td><td class="conferenceDinner">Observatory Tour</td><td></td></tr>
         </tbody>
       </table>
 
