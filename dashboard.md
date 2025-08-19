@@ -3,7 +3,7 @@
 | Package                | Poetry   | Rel. Notes | Fix COV   | Fix RTD     | CHANGELOG | main     | Auto-PyPI | Badges   | Loggers     | Webtests    | Branching     |
 | ---------------------- | -------- | ---------- | --------- | ----------- | --------- | -------- | --------- | -------- | ----------- | ----------- | ------------- |
 | `ScopeSim`             | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![False]  | ![True]  | ![True]     | ![True]     | ![trunk]      |
-| `ScopeSim_Templates`   | ![False] | ![True]    | ![False]  | ![False]    | ![False]  | ![True]  | ![False]  | ![False] | ![False]    | ![False]    | ![trunk]      |
+| `ScopeSim_Templates`   | ![True]  | ![True]    | ![False]  | ![False]    | ![False]  | ![True]  | ![False]  | ![False] | ![False]    | ![False]    | ![trunk]      |
 | `HowManyBloodyPhotons` | ![True]  | ![True]    | ![False]  | ![unused]   | ![unused] | ![True]  | ![True]   | ![True]  | ![unused]   | ![True]     | ![trunk]      |
 | `Pyckles`              | ![True]  | ![True]    | ![True]   | ![progress] | ![True]   | ![True]  | ![True]   | ![True]  | ![unused]   | ![True]     | ![trunk]      |
 | `AnisoCADO`            | ![False] | ![False]   | ![False]  | ![False]    | ![False]  | ![False] | ![False]  | ![False] | ![False]    | ![unused]   | ![trunk]      |
